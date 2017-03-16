@@ -31,6 +31,11 @@ nav li {
 nav a {
   color: black;
 }
+body {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
 
 .column {
   display: flex;
@@ -39,4 +44,40 @@ nav a {
 }
 .large h1 {
   background-image: url("./resources/images/img-story-main.png");
+}
+
+
+
+
+footer {
+  display: flex;
+  height: 325px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  margin: auto;
+}
+footer nav {
+  display: inline;
+  padding-left: 25px;
+}
+nav a {
+  padding: 25px;
+}
+span.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  padding-right: 25px;
+  border-right: thin solid white;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
