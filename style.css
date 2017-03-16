@@ -1,3 +1,5 @@
+/* HEADER SECTION */
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -31,24 +33,65 @@ nav li {
 nav a {
   color: black;
 }
-body {
+/* MAIN CONTENT */
+#main {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  display: flex;
+  padding: 100px 50px;
+  width: 1250px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
+}
+.column .large {
+  width: 630px;
 
 }
 .large h1 {
   background-image: url("./resources/images/img-story-main.png");
+  background-size: cover;
+  background-position: bottom;
+  height: 300px;
+  color: white;
+  width: 630px;
+
+}
+.stories {
+}
+.large h3 {
+  background-image: url("./resources/images/img-story-2.png");
+  color: white;
+  height: 300px;
+  background-size: cover;
+
+}
+.column .medium {
+  width: 300px;
 }
 
+.column .small {
+  width: 240px;
+}
+.column .small h4 {
+  text-align: center;
+}
+.column .small p {
+  background-color: whitesmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: Dimgray;
+  margin: 0px;
+  border-bottom: thin solid black;
+  padding: 15px 10px;
 
+}
 
-
+/* FOOTER SECTION */
 footer {
   display: flex;
   height: 325px;
