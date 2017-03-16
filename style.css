@@ -59,20 +59,34 @@ nav a {
   height: 300px;
   color: white;
   width: 630px;
-
+  display: flex;
+  align-items: center;
 }
 .stories {
 }
 .large h3 {
   background-image: url("./resources/images/img-story-2.png");
+  background-size: cover;
+  width: 300px;
   color: white;
   height: 300px;
-  background-size: cover;
 
 }
 .column .medium {
   width: 300px;
 }
+.medium h3 {
+  background-image: url("./resources/images/img-story-1.png");
+  background-size: cover;
+  height: 300px;
+  color: white;
+  width: 300px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
 
 .column .small {
   width: 240px;
