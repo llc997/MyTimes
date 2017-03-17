@@ -34,7 +34,7 @@ nav a {
   color: black;
 }
 /* MAIN CONTENT */
-#main {
+.content {
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -42,25 +42,31 @@ nav a {
   padding: 100px 50px;
   width: 1250px;
 }
-
 .column {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
 }
-.column .large {
+.column.large {
   width: 630px;
-
 }
-.large h1 {
+.main.image-content {
   background-image: url("./resources/images/img-story-main.png");
-  background-size: cover;
-  background-position: bottom;
+  font-size: 40px;
+  text-align: left;
+}
+.image-content {
   height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
   color: white;
-  width: 630px;
   display: flex;
   align-items: center;
+  text-align: center;
+}
+.main span {
+  margin-left: 20px;
 }
 .stories {
 }
@@ -72,7 +78,7 @@ nav a {
   height: 300px;
 
 }
-.column .medium {
+.column.medium {
   width: 300px;
 }
 .medium h3 {
@@ -85,16 +91,17 @@ nav a {
   font-size: 30px;
   display: flex;
   align-items: center;
+  margin: 0;
 }
 
 
-.column .small {
+.column.small {
   width: 240px;
 }
-.column .small h4 {
+.column.small h4 {
   text-align: center;
 }
-.column .small p {
+.column.small p {
   background-color: whitesmoke;
   font-family: Verdana;
   font-size: 12px;
