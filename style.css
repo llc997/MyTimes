@@ -36,11 +36,11 @@ nav a {
 /* MAIN CONTENT */
 .content {
   font-family: Georgia;
-  font-size: 17px;
+  font-size: 20px;
   color: black;
   display: flex;
   padding: 100px 50px;
-  width: 1250px;
+  width: 1232px;
 }
 .column {
   display: flex;
@@ -59,7 +59,7 @@ nav a {
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   color: white;
   display: flex;
   align-items: center;
@@ -69,21 +69,30 @@ nav a {
   margin-left: 20px;
 }
 .stories {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
 }
-.large h3 {
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+}
+.earth.image-content {
   background-image: url("./resources/images/img-story-2.png");
-  background-size: cover;
-  width: 300px;
-  color: white;
-  height: 300px;
-
 }
+.research.image-content {
+  background-image: url("./resources/images/img-story-3.png");
+}
+
 .column.medium {
   width: 300px;
 }
-.medium h3 {
+.cat.image-content {
   background-image: url("./resources/images/img-story-1.png");
-  background-size: cover;
+  font-size: 30px;
+}
+.medium h3 {
   height: 300px;
   color: white;
   width: 300px;
